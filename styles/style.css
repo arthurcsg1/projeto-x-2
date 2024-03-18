@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+strong {
+    color: #22D4FD;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8% 15%;
+    gap: 10px;
+}
+
+.conteudo__principal {
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+    gap: 30px;
+}
+
+.conteudo__titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+}
+
+.conteudo__paragrafo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img {
+    width: 380px;
+    height: 489px;
+    background-color: #22D4FD;
+    padding: 8px 8px; 
+    border-radius: 15px;  
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.botoes__botao {
+    border: 4px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 380px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.botoes__botao:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+.conteudo__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #22D4FD;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(20, 20, 20)
+}
+
+.cabecalho {
+    margin: 3% 15%
+}
+
+.cabecalho__menu {
+    gap: 80px;
+    display: flex;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #22D4FD;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: #84e8ff;
+    font-size: 26px;
+    cursor: pointer;
+}
