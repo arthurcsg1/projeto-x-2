@@ -19,30 +19,29 @@ strong {
     align-items: center;
     justify-content: space-between;
     padding: 8% 15%;
-    gap: 10px;
+    gap: 50px;
 }
 
 .conteudo__principal {
     display: flex;
     flex-direction: column;
-    width: 615px;
+    width: 50%;
     gap: 30px;
 }
 
 .conteudo__titulo {
     font-family: "Krona One", sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .conteudo__paragrafo {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 .img {
-    width: 380px;
-    height: 489px;
+    width: 50%;
     background-color: #22D4FD;
     padding: 8px 8px; 
     border-radius: 15px;  
@@ -63,10 +62,10 @@ strong {
     align-items: center;
     color: white;
     text-decoration: none;
-    width: 380px;
+    width: 75%;
     padding: 20px 0;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -74,11 +73,13 @@ strong {
 
 .botoes__botao:hover {
     background-color: rgb(27, 27, 27);
+    border: 5px solid #84e8ff;
+    width: 77%;
 }
 
 .conteudo__subtitulo {
     font-family: "Krona One", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .rodape {
@@ -87,7 +88,7 @@ strong {
     background-color: #22D4FD;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: rgb(20, 20, 20)
 }
@@ -105,12 +106,33 @@ strong {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #22D4FD;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover {
     color: #84e8ff;
-    font-size: 26px;
+    font-size: 1.625rem;
     cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 3%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .conteudo__principal {
+        width: auto;
+    }
+
+    }
